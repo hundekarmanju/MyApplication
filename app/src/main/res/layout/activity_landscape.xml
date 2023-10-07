@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/messageTableRow"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEAT PACKING"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_span="4"
+            android:textSize="40dp"
+             />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <TextView
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:text="PLU"
+            android:textColor="@color/black"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken curry cut"
+
+            android:textColor="@color/black"
+            android:textSize="33dp" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="10dp">
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tare"
+
+            android:textColor="@color/black"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="5 g"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MRP"
+
+            android:textColor="@color/black"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="₹299.0"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="33dp" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="10dp">
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+
+            android:textColor="@color/black"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="0 g"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="₹0"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="33dp" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="10dp">
+
+    </TableRow>
+
+
+
+
+</TableLayout>
